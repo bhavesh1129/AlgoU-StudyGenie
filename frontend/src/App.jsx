@@ -105,14 +105,14 @@ function App() {
 
         {/* Summary Section */}
         {summary && (
-  <div className="mt-8 bg-linear-to-br from-indigo-50 to-white border border-indigo-100 rounded-xl p-6 shadow-inner animate-fadeIn">
-    <h2 className="text-2xl font-semibold text-indigo-700 mb-3">📘 Summary</h2>
-    
-    <div className="prose max-w-none text-gray-700 leading-relaxed">
-      <Markdown>{summary}</Markdown>
-    </div>
-  </div>
-)}
+          <div className="mt-8 bg-linear-to-br from-indigo-50 to-white border border-indigo-100 rounded-xl p-6 shadow-inner animate-fadeIn">
+            <h2 className="text-2xl font-semibold text-indigo-700 mb-3">📘 Summary</h2>
+
+            <div className="prose max-w-none text-gray-700 leading-relaxed">
+              <Markdown>{summary}</Markdown>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

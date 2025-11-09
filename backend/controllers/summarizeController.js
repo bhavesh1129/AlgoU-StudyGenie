@@ -1,4 +1,6 @@
 import { extractPdfText } from "../utils/extractPdfText.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 /**
  * Summarizes notes from PDF or text using Gemini AI

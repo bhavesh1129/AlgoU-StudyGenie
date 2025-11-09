@@ -9,6 +9,6 @@ const upload = multer();
 
 // POST route to handle summarization requests
 // Accepts either a PDF file or text in the request body
-router.post("/", upload.single("file"), summarizeNotes);
+router.post("/summarizer", upload.single("file"), summarizeNotes);
 
 export default router;
