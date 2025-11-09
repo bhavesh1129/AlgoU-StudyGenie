@@ -1,6 +1,9 @@
-# 📄 AlgoU StudyGenie
+# AlgoU StudyGenie 🧞‍♂️
 
 An AI-powered web application that summarizes PDF documents and text using Google's Gemini AI. Upload a PDF or paste text to get instant, structured summaries.
+
+![AlgoU StudyGenie](https://github.com/bhavesh1129/AlgoU-StudyGenie/blob/main/Snapshot.png)
+
 
 ## ✨ Features
 
